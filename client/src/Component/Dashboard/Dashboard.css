@@ -1,4 +1,11 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(252, 236, 216);
+}
+
+.main-container{
+    background-color: rgb(255, 251, 251);
+    height: auto;
+    width: auto;
 }
