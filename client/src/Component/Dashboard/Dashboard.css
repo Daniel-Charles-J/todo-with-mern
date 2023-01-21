@@ -1,11 +1,24 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(252, 236, 216);
 }
-
+.Dashboard{
+    background-color:rgb(252, 236, 216) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .main-container{
     background-color: rgb(255, 251, 251);
-    height: auto;
-    width: auto;
+    height:70%;
+    width: 50%;
+}
+
+@media screen and (max-width : 550px){
+    .main-container{
+        background-color: rgb(255, 251, 251);
+        height:70%;
+        width: 70%;
+    }
 }

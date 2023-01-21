@@ -1,8 +1,7 @@
 import "./Dashboard.css";
 const Dashboard = () => {
     return(
-        <div>
-            <h1>Dashboard Page</h1>
+        <div className="Dashboard">
             <div className="main-container">
 
                <div className="title-card">
