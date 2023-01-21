@@ -22,7 +22,7 @@ const Dashboard = () => {
                     <button>+</button>
                  </div>
                </div>
-               <hr/>
+               
 
                <div className="task-container">
                   <div className="all-task">
