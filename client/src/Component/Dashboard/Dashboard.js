@@ -6,9 +6,11 @@ const Dashboard = () => {
 
                <div className="title-card">
                   <div><h1>ToDo</h1></div>
-                  <div>
-                    <h3>Today</h3>
-                    <p>21 jan 2023</p>
+                  <div className="date-region">
+                    <div className="date">
+                      <h3>Today</h3>
+                      <p>21 jan 2023</p>
+                    </div>
                     <p>picture</p>
                   </div>
                </div>
