@@ -1,7 +1,6 @@
 import "./Dashboard.css";
-import { FaArrowUp, FaArrowDown, FaWind } from "react-icons/fa";
-import{BiEdit} from "react-icons/bi"
-import {RiDeleteBin6Line} from "react-icons/ri"
+import TaskList from "../TaskList/TaskList";
+
 
 const Dashboard = () => {
     return(
@@ -26,54 +25,7 @@ const Dashboard = () => {
                     <button>+</button>
                  </div>
                </div>
-               
-
-               <div className="task-container">
-                  <div className="all-task">
-
-                  <div className="task-container-2">
-                        <div className="completed tasks">
-                          <input type="checkbox"></input>
-                          <h4>Buy headphone</h4>
-                        </div>
-                        <div className="icons">
-                          <BiEdit />
-                          <RiDeleteBin6Line/>  
-                       </div>              
-                    </div>
-                    
-                  </div>
-
-                  <hr/>
-
-                  <div className="all-task">
-
-                  <div className="task-container-2">
-                        <div className="completed tasks">
-                          <input type="checkbox"></input>
-                          <h4>Buy headphone</h4>
-                        </div>
-                        <div className="icons">
-                          <BiEdit />
-                          <RiDeleteBin6Line/>  
-                       </div>              
-                    </div>
-
-                   
-                    
-                    <div className="task-container-2">
-                        <div className="completed tasks">
-                          <input type="checkbox"></input>
-                          <h4>Buy headphone</h4>
-                        </div>
-                        <div className="icons">
-                          <BiEdit />
-                          <RiDeleteBin6Line/>  
-                       </div>              
-                    </div>
-
-                  </div>
-               </div>
+               <TaskList/>
             </div>
         </div>
     )
