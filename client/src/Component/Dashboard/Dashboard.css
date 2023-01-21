@@ -33,11 +33,46 @@
     width: 50%;
     padding: 20px;
 }
+.input-container{
+    margin: 10px 0 10px 0; 
+}
+.inputBox input{
+    width: 90%;
+    height: 40px;
+    margin-right: 2px;
+}
+.inputBox button{
+    width: 9%;
+    height: 40px;
+    background-color: rgb(93, 93, 242);
+    color: aliceblue;
+    font-size: larger;
+}
+.tasks{
+    display: flex;
+    gap:5px;
+    margin : 20px 0 20px 0;
+}
+.tasks input{
+    width: 30px;
+    height: 20px;
+}
+.bending input{
+    border-color: white;
+    border-radius: 30px;
+}
 
-@media screen and (max-width : 650px){
+@media screen and (max-width : 700px){
     .main-container{
         background-color: rgb(255, 251, 251);
         height:70%;
         width: 70%;
+    }
+
+    .inputBox input{
+        width: 80%;
+    }
+    .inputBox button{
+        width: 15%;
     }
 }

@@ -17,7 +17,7 @@ const Dashboard = () => {
                <hr/>
 
                <div className="input-container">
-                 <div>
+                 <div className="inputBox">
                     <input placeholder="Add a new task" type="text"></input>
                     <button>+</button>
                  </div>
@@ -25,12 +25,12 @@ const Dashboard = () => {
                <hr/>
 
                <div className="task-container">
-                  <div className="bending">
+                  <div className="bending tasks">
                     <input type="checkbox"></input>
                     <h4>Buy Water</h4>
                   </div>
                   <hr/>
-                  <div className="completed">
+                  <div className="completed tasks">
                     <input type="checkbox"></input>
                     <h4>Buy headphone</h4>
                   </div>
