@@ -56,10 +56,10 @@
 .tasks input{
     width: 30px;
     height: 20px;
+    border-color: blue;
 }
 .bending input{
-    border-color: white;
-    border-radius: 30px;
+    color: aquamarine;
 }
 
 @media screen and (max-width : 700px){
