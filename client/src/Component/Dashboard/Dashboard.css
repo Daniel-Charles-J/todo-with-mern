@@ -42,6 +42,11 @@
     width: 90%;
     height: 40px;
     margin-right: 2px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-left: 15px;
 }
 .inputBox button{
     width: 9%;
@@ -54,6 +59,20 @@
     display: flex;
     gap:5px;
     margin : 20px 0 20px 0;
+    width:75%;
+}
+.icons{
+   
+    display: flex;
+    gap:8px;
+    align-items: center;
+    width: 20%;
+    font-size: larger;
+}
+.task-container-2{
+    display: flex;
+    gap:35px
+    /* justify-content: space-around; */
 }
 .tasks input{
     width: 30px;
@@ -63,6 +82,7 @@
 hr{
     color:rgb(255, 255, 255);
 }
+
 
 @media screen and (max-width : 700px){
     .main-container{

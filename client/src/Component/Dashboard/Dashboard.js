@@ -1,4 +1,8 @@
 import "./Dashboard.css";
+import { FaArrowUp, FaArrowDown, FaWind } from "react-icons/fa";
+import{BiEdit} from "react-icons/bi"
+import {RiDeleteBin6Line} from "react-icons/ri"
+
 const Dashboard = () => {
     return(
         <div className="Dashboard">
@@ -26,33 +30,48 @@ const Dashboard = () => {
 
                <div className="task-container">
                   <div className="all-task">
-                    <div className="bending tasks">
-                       <input type="checkbox"></input>
-                        <h4>Buy Water</h4>
+
+                  <div className="task-container-2">
+                        <div className="completed tasks">
+                          <input type="checkbox"></input>
+                          <h4>Buy headphone</h4>
+                        </div>
+                        <div className="icons">
+                          <BiEdit />
+                          <RiDeleteBin6Line/>  
+                       </div>              
                     </div>
-                    <div className="bending tasks">
-                       <input type="checkbox"></input>
-                        <h4>Do cycle</h4>
-                    </div>
-                    <div className="bending tasks">
-                       <input type="checkbox"></input>
-                        <h4>Buy car</h4>
-                    </div>
+                    
                   </div>
+
                   <hr/>
+
                   <div className="all-task">
-                    <div className="completed tasks">
-                      <input type="checkbox"></input>
-                      <h4>Buy headphone</h4>
+
+                  <div className="task-container-2">
+                        <div className="completed tasks">
+                          <input type="checkbox"></input>
+                          <h4>Buy headphone</h4>
+                        </div>
+                        <div className="icons">
+                          <BiEdit />
+                          <RiDeleteBin6Line/>  
+                       </div>              
                     </div>
-                    <div className="completed tasks">
-                      <input type="checkbox"></input>
-                      <h4>Buy headphone</h4>
+
+                   
+                    
+                    <div className="task-container-2">
+                        <div className="completed tasks">
+                          <input type="checkbox"></input>
+                          <h4>Buy headphone</h4>
+                        </div>
+                        <div className="icons">
+                          <BiEdit />
+                          <RiDeleteBin6Line/>  
+                       </div>              
                     </div>
-                    <div className="completed tasks">
-                      <input type="checkbox"></input>
-                      <h4>Buy headphone</h4>
-                    </div>
+
                   </div>
                </div>
             </div>
